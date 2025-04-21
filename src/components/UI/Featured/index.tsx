@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import big_banner from '../../../../public/images/big_banner.png';
+import big_banner from '../../../../public/images/landing.png';
 import featured_mobile_banner from '../../../../public/images/featured_mobile_banner.png';
 import ParallaxText from '@/components/Common/ParallaxImages';
 import companies_image from '../../../../public/images/companies.png';
@@ -45,12 +45,12 @@ const Featured = () => {
             )}
           </Div>
         </ImageContainer>
-        <h2>Featured and Seen in</h2>
-        <ParallaxImages>
+        {/* <h2>Featured and Seen in</h2> */}
+        {/* <ParallaxImages>
           <ParallaxText baseVelocity={-4}>
             <Image src={companies_image} alt="comapanies" />
           </ParallaxText>
-        </ParallaxImages>
+        </ParallaxImages> */}
       </Inner>
     </Wrapper>
   );

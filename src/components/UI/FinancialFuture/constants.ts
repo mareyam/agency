@@ -17,41 +17,31 @@ export const cardsInfo = [
 
 export const stats = [
   {
-    number: '50+',
-    subtitle: 'cities',
+    number: '$3200',
+    subtitle: 'Revenue',
   },
   {
-    number: '50,000+',
-    subtitle: 'transactions',
+    number: '23',
+    subtitle: 'Clients',
   },
   {
-    number: '3M+',
-    subtitle: 'users',
-  },
-  {
-    number: '5+',
+    number: '88%',
     subtitle: 'user ratings',
   },
 ];
 
-// For desktop
-export const desktopHeaderPhrase = [
-  'Confidently Shape Your',
-  'Financial Future',
-];
+export const desktopHeaderPhrase = ['Automate Smarter'];
 export const desktopParagraphPhrase = [
-  'At RAFT, we empower you to confidently shape your financial future. Our modern',
-  'approach simplifies saving and investing, making it easier than ever.',
+  'Streamline workflows, engage leads automatically,',
+  'and let AI voice bots handle calls',
+  '—so you can focus on what mattersmost:',
+  'growth.',
 ];
 
-// For mobile
-export const mobileHeaderPhrase = [
-  'Confidently Shape',
-  ' Your Financial Future',
-];
+export const mobileHeaderPhrase = ['Automate Smarter'];
 export const mobileParagraphPhrase = [
-  'At RAFT, we empower you to confidently shape',
-  'your financial future. Our modern approach',
-  'simplifies saving and investing, making it easier',
-  'than ever.',
+  'Streamline workflows, engage leads automatically,',
+  'and let AI voice bots handle calls',
+  '—so you can focus on what mattersmost:',
+  'growth.',
 ];

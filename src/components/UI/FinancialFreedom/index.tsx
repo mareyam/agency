@@ -61,17 +61,24 @@ const FinancialFreedom = () => {
             )}
           </Div>
         </BannerCtn>
-        <Edges>
-          {edges.map((edge, i) => (
-            <Edge key={i}>
-              <Title>
-                <Image src={edge.icon} alt="icon" />
-                <MaskText phrases={new Array(edge.point)} tag="h3" />
-              </Title>
-              <MaskText phrases={new Array(edge.details)} tag="p" />
-            </Edge>
-          ))}
-        </Edges>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <Edges>
+            {edges.map((edge, i) => (
+              <Edge key={i}>
+                <Title>
+                  <MaskText phrases={new Array(edge.point)} tag="h3" />
+                </Title>
+                <MaskText phrases={new Array(edge.details)} tag="p" />
+              </Edge>
+            ))}
+          </Edges>
+        </div>
       </Inner>
       <BriefNote>
         {isMobile ? (

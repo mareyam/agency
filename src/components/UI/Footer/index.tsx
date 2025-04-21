@@ -46,7 +46,7 @@ const Footer = () => {
         <FooterLogo>
           <Image src={raft_footer_logo} alt="raft_footer_logo" />
         </FooterLogo>
-        <FooterMainContent>
+        {/* <FooterMainContent>
           <FooterMiddle>
             <QRContainer>
               <QRImageCtn>
@@ -83,7 +83,7 @@ const Footer = () => {
               Raft Corp, LLC.
             </CopyRight>
           </FooterBottom>
-        </FooterMainContent>
+        </FooterMainContent> */}
       </Inner>
     </Wrapper>
   );

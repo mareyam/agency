@@ -17,8 +17,8 @@ export default function Home() {
       <OffersSection />
       <FinancilaFreedom />
       <FinancialFuture />
-      <IntroSection />
-      <JoinSection />
+      {/* <IntroSection /> */}
+      {/* <JoinSection /> */}
       <FAQ />
     </main>
   );

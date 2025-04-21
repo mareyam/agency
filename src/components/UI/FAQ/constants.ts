@@ -19,23 +19,33 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'How do I create an account with RAFT?',
+    question: 'What services does your automation agency provide?',
     answer:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'We specialize in end-to-end workflow automations, AI voice bots for inbound and outbound calls, CRM integrations, lead nurturing, and custom AI solutions tailored to your business needs.',
   },
   {
-    question: 'How does RAFT ensure the security of my financial data?',
+    question: 'How can AI voice bots improve my customer service?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Our AI voice bots handle repetitive queries, qualify leads, schedule appointments, and route calls—all with natural, human-like interaction—freeing up your team for higher-value tasks.',
   },
   {
-    question: 'What types of transactions can I perform with RAFT?',
+    question: 'Can your automation systems integrate with my existing tools?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Yes. We integrate seamlessly with CRMs, ERPs, calendars, databases, and communication tools like Twilio, WhatsApp, Slack, and more using platforms like n8n and custom APIs.',
   },
   {
-    question: 'What benefits does RAFT offer for wealth management?',
+    question: 'Is it possible to automate outbound sales calls with AI?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Absolutely. Our AI bots can initiate outbound calls, pitch your offer, qualify leads, and even follow up—24/7—with personalized scripts based on customer data.',
+  },
+  {
+    question: 'What’s the onboarding process like?',
+    answer:
+      'We start with a free consultation to understand your workflows and goals, then design, develop, and deploy custom automation or voice bot solutions, followed by training and support.',
+  },
+  {
+    question: 'Do you offer support and maintenance after deployment?',
+    answer:
+      'Yes, we provide continuous monitoring, performance optimization, and on-demand support to ensure your automations and bots run smoothly over time.',
   },
 ];

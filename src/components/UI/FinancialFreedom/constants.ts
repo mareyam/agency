@@ -1,22 +1,15 @@
-
-import ic_banknotes from '../../../../public/svgs/ic_banknotes.svg';
-import ic_circle_stack from '../../../../public/svgs/ic_circle_stack.svg';
-import ic_arrows_left_right from '../../../../public/svgs/ic_arrows_right_left.svg';
-
 // For desktop
-export const desktopHeaderPhrase = ['Your Financial Freedom,', 'Your Way'];
+export const desktopHeaderPhrase = ['Smart Automation.', 'Real Results'];
 export const desktopParagraphPhrase = [
-  'We believe that managing your finances should be effortless and cost-effective.',
-  "That's why we offer you the freedom you deserve.",
+  'We design and deploy automation systems that simplify operations, save time, and increase revenue. Whether it’s streamlining workflows, integrating CRMs, or launching AI-powered voice bots, we help businesses run smarter.',
 ];
 export const desktopBriefNotePhrase = [
-  'Smart investments,',
-  'secure payments, and',
-  'expert guidance, all in',
-  'one place.',
+  'Smart workflows',
+  'AI-powered conversations',
+  'and zero manual effort—',
+  'all in one system.',
 ];
 
-// For mobile
 export const mobileHeaderPhrase = ['Your Financial', 'Freedom, Your Way'];
 export const mobileParagraphPhrase = [
   'We believe that managing your finances should be',
@@ -36,21 +29,22 @@ export const mobileBriefNotePhrase = [
 
 export const edges = [
   {
-    point: 'No minimum balance fees',
-    details:
-      'Say goodbye to minimum balance fees. Your account, your balance—no hidden charges',
-    icon: ic_banknotes,
+    point: '🚀 Faster Execution',
+    details: 'We build and launch systems quickly—no long dev cycles.',
   },
   {
-    point: 'No monthly fees',
+    point: '🤖 AI-First Approach',
     details:
-      'Bank with us without worrying about monthly fees. Keep more of your money where it belongs—in your account',
-    icon: ic_circle_stack,
+      'Our solutions are smart, scalable, and trained to deliver results.',
   },
   {
-    point: 'No bank transfer fees',
+    point: '🔐 Secure & Reliable',
     details:
-      'Seamlessly transfer funds without the extra cost. Send and receive money with zero bank transfer fees.',
-    icon: ic_arrows_left_right,
+      'Data privacy, uptime, and performance are built into everything we do.',
+  },
+  {
+    point: '🤝 End-to-End Support',
+    details:
+      'From discovery to deployment to scaling—we’re with you every step of the way',
   },
 ];

@@ -1,47 +1,47 @@
-import seamless_payments from '../../../../public/images/seamless_payments.png';
+import seamles_payments from '../../../../public/images/seamless_payments.png';
 import smart_investing from '../../../../public/images/smart_investing.png';
 import wealth_management from '../../../../public/images/wealth_management.png';
 import financial_planning from '../../../../public/images/financial_planning.png';
 // For desktop
 export const desktopHeaderPhrases = [
-  'Elevate Your Financial',
+  'Elevate Your Automation',
   'Journey with RAFT',
 ];
 export const desktopParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From investments to payments,',
+  'RAFT offers a world of automation possibilities. AI Bots, Voice Agents, Scrapers',
   "we've got you covered. Join us and unlock your potential today.",
 ];
 
 // For mobile
 export const mobileParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From',
-  "investments to payments, we've got you covered.",
+  'RAFT offers a world of financial possibilities.',
+  "AI Bots, Voice Agents, Scrapers, we've got you covered.",
   'Join us and unlock your potential today.',
 ];
 
 export const offers = [
   {
-    illustration: seamless_payments,
-    title: 'Seamless Payments',
+    illustration: smart_investing,
+    title: 'AI Voice Bots',
     details:
-      'Enjoy secure, seamless transactions that make managing your money a breeze.',
+      'Automate inbound and outbound calls with natural-sounding AI agents that handle customer queries, qualify leads, and book appointments 24/7.',
   },
   {
     illustration: smart_investing,
-    title: 'Smart Investing',
+    title: 'AI WebChat',
     details:
-      'Grow your wealth confidently with our personalized investment solutions, tailored to your financial goals.',
+      'Deploy intelligent chatbots on your website to engage visitors, answer FAQs, capture leads, and provide instant support—all in real time.',
   },
   {
     illustration: wealth_management,
-    title: 'Wealth Management',
+    title: 'Scrapers and Lead Generation',
     details:
-      'Make informed decisions for your financial future with our wealth management expertise.',
+      'Extract targeted data from the web, validate it, and build high-quality lead lists to supercharge your outreach campaigns.',
   },
   {
     illustration: financial_planning,
-    title: 'Financial Planning',
+    title: 'Cold Emailing',
     details:
-      'Achieve your financial dreams with our comprehensive financial planning services, guiding you toward a secure future.',
+      'Launch smart, automated cold email sequences that personalize at scale, track engagement, and convert leads into customers.',
   },
 ];
